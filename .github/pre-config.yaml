@@ -1,6 +1,6 @@
 version: AppSecPipeline 0.6.0
 
-# Global configuration settings
+# Global configuration settinsgs
 global:
   min-severity: info
   max-tool-run: 720   #Maximum time to run a tool before terminating the container, specified in minutes
