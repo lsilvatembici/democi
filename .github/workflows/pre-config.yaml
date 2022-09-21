@@ -3,7 +3,7 @@ version: AppSecPipeline 0.6.0
 # Global configuration settinsgs
 global:
   min-severity: info
-  max-tool-run: 720   #Maximum tim3e to run a tool before terminating the container, specified in minutes
+  max-tool-run: 720   #Maximum tim3e to rusn a tool before terminating the container, specified in minutes
   max-parallel: 3     #Maximum number of concurrent docker containers to run per Pipeline
   max-dynamic: 1      #Maximum number of dynamic containers to run at once
   max-critical: 1     #Maximum critical findings before failing a build
